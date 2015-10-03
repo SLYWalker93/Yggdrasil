@@ -1,3 +1,6 @@
+import os
+#using import os for clearing screen on mac and linux
+
 #this will be our main file for story and logic
 
 print "THE QUEST FOR THE SACRED WATER"
@@ -15,36 +18,41 @@ print "The task has fallen to you; the sentries have also fallen victim to this 
 
 
 print " "
+go_on = raw_input("Continue to page 2?")
+print "Enter 'y' for yes, 'n' to end story"
+if (go_on == "y"):
 
-print "Welcome to Your Quest!"
+    os.system('clear')  # on linux / os x
 
-print " "
-print " "
+    print "Welcome to Your Quest!"
 
-print "You are sitting in your room, "
+    print " "
+    print " "
 
-print "MOTHER:For centuries, our clan has safeguarded the tree of life. We have ensured that pilgrims from across the realm may benefit from its healing properties."
-print "But, I, and all the sentries, have failed this day, my child."
-print "Your training is complete. Now, you must choose your weapon."
-print "The wilds are fraught with dangers. Go over to the chest, at the end of my bed."
-print "Now, choose, my child. What shall safegaurd you, on your mission?"
+    print "You are sitting in your room, "
 
-choice=raw_input ("You have three choices: sword and shield, bow and dagger, or staff and tome. Choose wisely...")
-if choice=="sword and shield" or choice=="sword":
-    print "So, the blade. You always excelled in combat training. May it serve you well."
-elif choice=="bow and dagger" or choice=="bow":
-    print "The stealth approach, eh? Take care not to let those sticky fingers get you into trouble!"
-elif choice=="staff and tome" or choice=="staff":
-    print "Yes, of course. Your mind has always been your strongest asset. Take care not to shout. A mage's voice is their greatest weapon."
-else:
-    print "My child, you must choose your weapon. Time is of the essence!"
+    print "MOTHER:For centuries, our clan has safeguarded the tree of life. We have ensured that pilgrims from across the realm may benefit from its healing properties."
+    print "But, I, and all the sentries, have failed this day, my child."
+    print "Your training is complete. Now, you must choose your weapon."
+    print "The wilds are fraught with dangers. Go over to the chest, at the end of my bed."
+    print "Now, choose, my child. What shall safegaurd you, on your mission?"
 
-print " "
+    choice=raw_input ("You have three choices: sword and shield, bow and dagger, or staff and tome. Choose wisely...")
+    if choice=="sword and shield" or choice=="sword":
+        print "So, the blade. You always excelled in combat training. May it serve you well."
+    elif choice=="bow and dagger" or choice=="bow":
+        print "The stealth approach, eh? Take care not to let those sticky fingers get you into trouble!"
+    elif choice=="staff and tome" or choice=="staff":
+        print "Yes, of course. Your mind has always been your strongest asset. Take care not to shout. A mage's voice is their greatest weapon."
+    else:
+        print "My child, you must choose your weapon. Time is of the essence!"
 
-print "You must venture to the northern wastes, and find the lost temple our ancestors once safeguarded."
+    print " "
 
-print "It is there you will find the sacred life-giving water, which can restore the tree we hold so dear."
+    print "You must venture to the northern wastes, and find the lost temple our ancestors once safeguarded."
 
-print "You will brave dangers and conquer challenges our people have not faced for a generation."
+    print "It is there you will find the sacred life-giving water, which can restore the tree we hold so dear."
 
-print ""
+    print "You will brave dangers and conquer challenges our people have not faced for a generation."
+
+    print ""
