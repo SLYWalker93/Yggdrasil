@@ -1,26 +1,5 @@
 import os
-from path1 import path_prime
-from path1 import path_prime_2
-from path1 import path_prime_3
-from path1 import path_prime_4
-from path1 import path_prime_5
-from path1 import path_1_a
-from path1 import path_1_1
-from path1 import path_1_2
-from path1 import path_1_3
-from path1 import path_f_1
-from path1 import path_f_1_1
-from path1 import path_f_1_2
-from path1 import path_f_1_3
-from path1 import path_f_1_4
-from path1 import path_f_1_5
-from path1 import path_f_1_6
-from path1 import path_f_2_1
-from path1 import path_f_2_2
-from path1 import path_f_2_3
-from path1 import path_f_2_4
-from path1 import path_f_2_5
-from path1 import path_f_2_6
+from path1 import *
 
 
  #importing path_1 function from path1.py
