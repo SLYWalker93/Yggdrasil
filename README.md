@@ -1,6 +1,8 @@
 # Yggdrasil
 -----------
+###A SlyWalker joint; Written and Directed by: YOU! 
 
-###Fantasy text game in Python; runs like madlibs, so sayeth Jaylen =D
+
+###Fantasy choose-your-own-adventure game in Python; runs like madlibs, so sayeth Jaylen =D
 
 
